@@ -34,4 +34,4 @@ SELECT year, count(type) AS "Total Oscars" FROM Oscar GROUP BY year HAVING "Tota
 
 --Problem 7
 
-SELECT name, runtime FROM Movie WHERE name LIKE 'Star Wars%' ORDER BY runtime ASC LIMIT 1; --I admit that there is likely a better way to do this, but I found that this works just fine
+SELECT name, runtime FROM Movie WHERE name LIKE 'Star Wars%' ORDER BY runtime ASC LIMIT 1; --I admit that there is likely a better way to do this, but this works just fine
